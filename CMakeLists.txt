@@ -149,7 +149,7 @@ if (NOT (WAYLAND_VERSION VERSION_LESS 1.10))
     set(WAYLAND_1_10_OR_GREATER ON)
 endif ()
 
-pkg_check_modules(COGPLATFORM_FDO_DEPS REQUIRED wpe-webkit-0.1>=2.21.90 wpe-0.2 wpebackend-fdo-0.1 egl xkbcommon)
+pkg_check_modules(COGPLATFORM_FDO_DEPS REQUIRED wpe-webkit-0.1>=2.21.90 wpe-0.2 wpebackend-fdo-1.0 egl xkbcommon)
 pkg_check_modules(WAYLAND_EGL wayland-egl)
 
 set(COGPLATFORM_FDO_INCLUDE_DIRS
